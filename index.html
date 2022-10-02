@@ -120,7 +120,7 @@ header{
 /* ----Section ---- */
 section{
 	height: 300px;
-	padding-top: 30px;
+	padding-top: x;
     padding-left: 180px;
 }
 .mypass{
@@ -131,6 +131,7 @@ section{
 }
 .pass{
 	margin-top:40px;
+	margin-bottom: 25px;
 }
 p{
 	margin: 10px 0px 10px 0px;
@@ -183,20 +184,18 @@ li{
 	color:#645DEC;
 	cursor:pointer;
 }
-.btnr{
-	padding: 7px 12px 7px 12px;
-	border-radius : 2px;
-	outline:none;
-	border:1px solid #645DEC;
-	color:white;
-	background-color:#645DEC;
-	margin-top:5px;
-	cursor: pointer;
+.ll{
+	width: 155px;
+    height: 46px;
+    color: #fff;
+    background-color: #645dec;
+    border: none;
+    /* margin: 20px 40px 0 0; */
+    font-size: 15px;
+    float: left;
+    cursor: pointer;
+    border-radius: 4px;
 }
-.btnr:hover {
-	background-color:#524cd3;
-}
-
 </style>
 </head>
 <body>
@@ -282,8 +281,10 @@ li{
 	<div class="trust pass">
 		<p class="phead">WHAT I TRUST</p>
 		<p>Good ideas, better designs and best implementation can change the way anything works.</p>
-		<button class="btnr">My Resume</button>
 	</div>
+	<a target="_blank" class="btn" href="Vikash_Resume.pdf">
+		<input class="ll" type="button" value="My Resume" />
+	</a>
 </section>
 <footer>
 	<div class="footerheading">CONTACT US</div>
@@ -310,4 +311,7 @@ li{
 		</ul>
 	</div>
 </footer>
+
+
+
 </body>
