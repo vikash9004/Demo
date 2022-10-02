@@ -89,6 +89,7 @@ body{
     position: absolute;
     margin-left: 180px;
     top: 280px;
+	z-index: -1;
 }
 .svgtop{
 	margin-top:171px;
@@ -180,8 +181,23 @@ li{
 }
 .url:hover{
 	color:#645DEC;
-	cursor:pointer;s
+	cursor:pointer;
 }
+.btnr{
+	padding: 7px 12px 7px 12px;
+	border-radius : 2px;
+	outline:none;
+	border:1px solid #645DEC;
+	color:white;
+	background-color:#645DEC;
+	margin-top:5px;
+	cursor: pointer;
+}
+.btnr:hover {
+	background-color:#524cd3;
+	color: red;
+}
+
 </style>
 </head>
 <body>
@@ -267,6 +283,7 @@ li{
 	<div class="trust pass">
 		<p class="phead">WHAT I TRUST</p>
 		<p>Good ideas, better designs and best implementation can change the way anything works.</p>
+		<button class="btnr">My Resume</button>
 	</div>
 </section>
 <footer>
@@ -294,5 +311,4 @@ li{
 		</ul>
 	</div>
 </footer>
-
 </body>
