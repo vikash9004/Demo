@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vikash MJ</title>
-  <meta name="description" content="Product designer" />
-  <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" />
+  <meta name="description" content="Product Designer - Vikash MJ">
+  <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
   <style>
     * {
       margin: 0;
@@ -15,118 +15,130 @@
     }
 
     body {
-      background: url('bg.jpg') no-repeat center top;
-      background-size: cover;
+      background-color: #f3f4f6;
+      color: #1f2937;
+    }
+
+    header, section, footer {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
     }
 
     header {
-      position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 2rem 1rem;
       text-align: center;
-    }
-
-    .rgt {
-      max-width: 600px;
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
+      border-bottom: 2px solid #cbd5e1;
     }
 
     .name {
-      margin-bottom: 15px;
-      font-size: 2rem;
-      border: 1px solid #609EED;
-      padding: 0.5rem;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      border: 2px solid #3b82f6;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
     }
 
     .namehlt {
-      color: #645DEC;
-      background-color: #BADEFE;
+      color: #1d4ed8;
+      background-color: #bfdbfe;
       font-weight: bold;
       padding: 0 4px;
-      letter-spacing: 1px;
+      border-radius: 4px;
     }
 
     .des {
+      font-size: 2rem;
       font-weight: 800;
-      font-size: 2.5rem;
-      margin-bottom: 15px;
+      margin-bottom: 0.5rem;
+      color: #0f172a;
       letter-spacing: 2px;
     }
 
     .comp {
       font-size: 1.2rem;
       font-weight: 500;
+      color: #475569;
     }
 
     .comp:hover {
-      color: #089949;
-    }
-
-    .lft {
-      margin-top: 2rem;
-      max-width: 90%;
+      color: #10b981;
     }
 
     .hbline {
-      border: 0.5px solid #609EED;
-      width: 80%;
-      margin: 2rem auto;
-    }
-
-    .bgblurblue,
-    .bgblurpink {
-      display: none; /* Optional: hide heavy blur effects on mobile */
+      height: 1px;
+      background: #93c5fd;
+      margin: 2rem 0;
+      width: 100%;
     }
 
     section {
-      padding: 2rem 1rem;
       display: flex;
       flex-direction: column;
-      align-items: center;
       gap: 2rem;
-      text-align: center;
+    }
+
+    .pass-container {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
     }
 
     .pass {
-      max-width: 600px;
+      background-color: #e0f2fe;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     }
 
     .phead {
-      font-weight: 600;
       font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #2563eb;
     }
 
     p {
       font-size: 1rem;
       line-height: 1.6;
+      color: #334155;
     }
 
     .ll {
-      margin-top: 1rem;
+      margin-top: 1.5rem;
       padding: 0.75rem 2rem;
-      font-size: 1rem;
-      background-color: #645DEC;
-      color: white;
+      background-color: #2563eb;
+      color: #fff;
       border: none;
-      border-radius: 4px;
+      border-radius: 6px;
       cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+
+    .ll:hover {
+      background-color: #1e40af;
     }
 
     footer {
-      padding: 2rem 1rem;
-      background-color: #f7f7f7;
       text-align: center;
+      background-color: #e2e8f0;
+      border-top: 2px solid #cbd5e1;
+      margin-top: 2rem;
+      padding-top: 2rem;
     }
 
     .footerheading {
       font-size: 1.25rem;
-      font-weight: 600;
+      font-weight: 700;
       margin-bottom: 1.5rem;
     }
 
     ul {
-      padding: 0;
+      list-style: none;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -134,72 +146,36 @@
     }
 
     li {
-      list-style: none;
       display: flex;
       align-items: center;
       gap: 0.5rem;
     }
 
     .url:hover {
-      color: #645DEC;
-    }
-
-    @media (min-width: 768px) {
-      header {
-        flex-direction: row;
-        justify-content: space-between;
-        text-align: left;
-        padding: 3rem 4rem;
-      }
-
-      .rgt, .lft {
-        flex: 1;
-      }
-
-      section {
-        flex-direction: row;
-        justify-content: center;
-        gap: 3rem;
-        padding: 4rem;
-        text-align: left;
-      }
-
-      footer {
-        text-align: left;
-        padding: 4rem;
-      }
+      color: #1d4ed8;
     }
   </style>
 </head>
 <body>
-
-  <div class="bgblurblue"></div>
-  <div class="bgblurpink"></div>
-
   <header>
-    <div class="rgt">
-      <div class="name">Hello, I'm <span class="namehlt">VIKASH MJ</span></div>
-      <div class="des">PRODUCT DESIGNER</div>
-      <div class="comp">ZOHO DESK</div>
-    </div>
-    <div class="lft">
-      <!-- Your SVG goes here -->
-    </div>
+    <div class="name">Hello, I'm <span class="namehlt">VIKASH MJ</span></div>
+    <div class="des">PRODUCT DESIGNER</div>
+    <div class="comp">ZOHO DESK</div>
   </header>
 
   <div class="hbline"></div>
 
-  <section>
-    <div class="mypass pass">
+  <section class="pass-container">
+    <div class="pass">
       <p class="phead">MY PASSION</p>
-      <p>Love to evolve ideas and bring life to it. Always want to explore new ideas with innovation, creativity and futuristic approach to the current system.</p>
+      <p>I love transforming ideas into real-world impact. Innovation, creativity, and a future-first mindset are at the heart of every design I create.</p>
     </div>
-    <div class="trust pass">
+    <div class="pass">
       <p class="phead">WHAT I TRUST</p>
-      <p>Good ideas, better designs and best implementation can change the way anything works.</p>
+      <p>Great outcomes are rooted in meaningful ideas, strong design thinking, and flawless execution. These are the principles I trust to drive success.</p>
     </div>
-    <a target="_blank" class="btn" href="Vikash_Resume.pdf">
-      <input class="ll" type="button" value="My Resume" />
+    <a href="Vikash_Resume.pdf" target="_blank">
+      <input class="ll" type="button" value="My Resume">
     </a>
   </section>
 
@@ -207,31 +183,22 @@
     <div class="footerheading">CONTACT US</div>
     <ul>
       <li>
-        <img src="li.png" width="30" class="socialimg" />
-        <a href="https://www.linkedin.com/in/vikashmj9004/" target="_blank">
-          <span class="url">vikashmj9004/</span>
-        </a>
+        <img src="li.png" width="30" alt="LinkedIn">
+        <a href="https://www.linkedin.com/in/vikashmj9004/" target="_blank"><span class="url">vikashmj9004/</span></a>
       </li>
       <li>
-        <img src="dr.png" width="30" class="socialimg" />
-        <a href="https://dribbble.com/vikashmj9004" target="_blank">
-          <span class="url">vikashmj9004/</span>
-        </a>
+        <img src="dr.png" width="30" alt="Dribbble">
+        <a href="https://dribbble.com/vikashmj9004" target="_blank"><span class="url">vikashmj9004/</span></a>
       </li>
       <li>
-        <img src="tw.png" width="30" class="socialimg" />
-        <a href="https://twitter.com/vikashmj9004" target="_blank">
-          <span class="url">vikashmj9004/</span>
-        </a>
+        <img src="tw.png" width="30" alt="Twitter">
+        <a href="https://twitter.com/vikashmj9004" target="_blank"><span class="url">vikashmj9004/</span></a>
       </li>
       <li>
-        <img src="in.png" width="30" class="socialimg" />
-        <a href="https://www.instagram.com/vikash_mj_/" target="_blank">
-          <span class="url">vikash_mj_/</span>
-        </a>
+        <img src="in.png" width="30" alt="Instagram">
+        <a href="https://www.instagram.com/vikash_mj_/" target="_blank"><span class="url">vikash_mj_/</span></a>
       </li>
     </ul>
   </footer>
-
 </body>
 </html>
